@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("image/fibonacci.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    margin: 40px;
+    font-size: 40px;
+    text-shadow: 3px 4px 3px rgb(100 100 100);
+}
+.container {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+#number {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid;
+    outline: none;
+    margin-right: 5px;
+}
+
+#btn {
+    margin-left: 5px;
+    border-radius: 8px;
+    border: none;
+    outline-style: none;
+    font-size: medium;
+}
+
+#btn:hover {
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 3px 2px 16px 1px;
+
+}
+
+#result {
+    height: 20px;
+    font-size: 18px;
+    margin: 30px;
+    font-weight: bold;
+}
+
+#info {
+    margin-top: 23px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#fib {
+    border: 2px solid grey;
+    height: 310px;
+    min-width: 40%;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+#fib span {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#fib p {
+    padding: 0 10px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#fib a {
+    color: darkblue;
+}
